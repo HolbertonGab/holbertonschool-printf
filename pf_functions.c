@@ -75,7 +75,7 @@ int print_decimal(va_list args)
 	{
 		absoluteValue = number;
 	}
-	while (temp > 9)
+	while (absoluteValue / countDigits >= 10)
 	{
 		temp /= 10;
 		countDigits *= 10;
