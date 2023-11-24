@@ -1,0 +1,34 @@
+.TH NAME
+_printf
+
+.SH SYNOPSIS 
+#include "main.h"
+
+int _printf(const char *format, ...);
+
+.SH DESCRIPTION
+The _printf function write its out put to stdout which is the standard output stream
+
+.SH COVERSION SPECIFIERS
+.BR\- c
+With this specifier, the int argument is converted to an unsigned char, and the resulting character is printed.
+
+.BR \- s
+The const char * argument should be a pointer to an array (pointer to a string). tha characters from the array are printed up to NULL, which will not be printed.
+
+.BR \- % 
+A % will be printed out. no argument will be converted.
+
+.BR \- d, i 
+The int argument is converted to signed decimal notation.
+
+.SH RETURN
+prints out a string of characters
+
+.SH EXEMPLE
+_printf("this message shall be printed");
+which will result in :
+this message shall be printed
+
+.SH DATE
+21/11/2023
