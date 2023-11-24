@@ -25,3 +25,5 @@ shown bellow is the flowchart of printf
 
 the man page can be read using the command
 man ./man_3_printf
+
+written and coded by Gabriel Martin and Esteban Guillen
